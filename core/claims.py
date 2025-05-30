@@ -1,5 +1,3 @@
-from datetime import datetime
-
 def create_claim(policyholders, claim_id, holder_id, amount, reason, status, date):
     for holder in policyholders:
         if holder.id == holder_id:
